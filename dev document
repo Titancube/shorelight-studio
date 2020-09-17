@@ -1,0 +1,33 @@
+Interface
+
+User Interface
+
+	primary_id
+	user_id	
+	user_pw
+	user_type
+	/*
+		0:guest
+		1:creator
+		2:admin
+	*/
+	user_name
+
+Timetable Interface
+
+	primary_id
+	tt_id
+	tt_name
+	tt_people //몇명인지
+	tt_time // 1600303811, 1600323811 대충 유닉스 
+	tt_isVerified // 관리자 허가 받았는지 
+	user_id
+
+Article Interface
+
+	primary_id
+	article_title
+	article_text
+	article_date
+	article_photo //imageURL
+	user_id
